@@ -1,5 +1,4 @@
-const BASE_URL = 'http://192.168.1.4:5000'; // Emulador Android
-// const BASE_URL = 'http://192.168.1.X:5000'; // Celular físico, reemplaza con IP local real
+const BASE_URL = 'http://192.168.1.4:5000'; 
 
 export const obtenerPredicciones = async (pais, mes) => {
   try {
